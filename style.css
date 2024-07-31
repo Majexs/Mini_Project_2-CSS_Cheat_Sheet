@@ -49,6 +49,9 @@ main {
         rgba(19, 167, 14, 0.6) 100%
     );
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }          
 
 .linear-gradient-background:hover {
@@ -58,12 +61,13 @@ main {
 }
                             
 .code-card {
+    margin-left: 10px;
     text-wrap: wrap;
     color: white;
     user-select: all;
     background-color: transparent;
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
+    font-size: 14px;
 }                
             
 footer {
