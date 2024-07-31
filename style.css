@@ -41,20 +41,20 @@ main {
     padding: 5px;
 }
 
-pre {
+.linear-gradient-background {
     background-image: linear-gradient(
         rgba(15, 234, 106, 0.3) 0%,
         rgba(18, 193, 76, 0.6) 100%
     );
 }
             
-code {
+.code-card {
     text-wrap: wrap;
     color: white;
     user-select: all;
     background-color: transparent;
-}
-
+}                
+            
 footer {
     text-align: center;
 }
@@ -62,5 +62,11 @@ footer {
 @media screen and (max-width: 768px) {
     .card {
         width: 40%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+        width: 80%;
     }
 }
